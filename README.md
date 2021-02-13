@@ -22,3 +22,20 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Run the below commands:
+rails db:create
+rails db:migrate
+
+rails generate devise:install
+rails generate devise:views users
+
+
+
+brew install elasticsearch
+brew services start elasticsearch
+
+
+
+rake searchkick:reindex CLASS=Upload
