@@ -39,3 +39,6 @@ brew services start elasticsearch
 
 
 rake searchkick:reindex CLASS=Upload
+
+
+// please create signin initially
